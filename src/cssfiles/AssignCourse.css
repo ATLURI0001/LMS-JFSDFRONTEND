@@ -1,0 +1,105 @@
+/* AssignCourse.css */
+
+/* General Styles */
+body {
+    background-color: #003366; /* Blue background */
+    font-family: 'Arial', sans-serif;
+    color: white;
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #f5f5f5;
+  }
+  
+  button {
+    background-color: #4CAF50; /* Green background for buttons */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  label {
+    font-size: 1rem;
+    margin-right: 10px;
+    color: #f5f5f5;
+  }
+  
+  /* Form Container */
+  div.form-container {
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #00509E; /* Dark blue for form container */
+    border-radius: 10px;
+    width: 80%;
+    max-width: 900px;
+    text-align: left;
+  }
+  
+  select, input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Success and Error Messages */
+  .success, .error {
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    font-size: 1.2rem;
+  }
+  
+  .success {
+    color: #28a745;
+  }
+  
+  .error {
+    color: #dc3545;
+  }
+  
+  /* Table Styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  th, td {
+    padding: 15px;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  @media (max-width: 768px) {
+    table {
+      font-size: 0.9rem;
+    }
+  }
+  

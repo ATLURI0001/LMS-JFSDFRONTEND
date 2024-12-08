@@ -1,0 +1,86 @@
+body {
+    background-color: #fefefe;
+    font-family: Arial, sans-serif;
+}
+
+.blog-resources {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-resources h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.blog-resources h2 {
+    margin-top: 30px;
+    color: #ffffff;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.blog-resources p {
+    line-height: 1.6;
+    color: #ffffff;
+    text-align: center;
+}
+
+.search-bar {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+   
+}
+
+.card {
+    background-color: #c5c5c5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.card a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.card h3 {
+    color: #333;
+    font-size: 1.2em;
+}
+
+.card p {
+    color: #555;
+    margin: 10px 0;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.card a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}

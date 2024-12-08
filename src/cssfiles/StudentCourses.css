@@ -1,0 +1,63 @@
+.student-courses-container {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color: #f0f0f5; /* Light neutral background */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .student-info {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .courses-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .course-card {
+    background-color: #fff; /* Card color contrasting with root background */
+    width: 280px; /* Small fixed card size */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .course-name {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #007bff; /* Bright blue for course names */
+  }
+  
+  .course-code,
+  .instructor-name {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .course-code {
+    margin-bottom: 8px;
+  }
+  

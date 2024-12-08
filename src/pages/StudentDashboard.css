@@ -1,0 +1,60 @@
+.dashboard-container {
+    padding: 20px;
+    background-color: #ffffff; /* Light background for better contrast */
+    min-height: 100vh; /* Ensures full height */
+}
+
+.dashboard-title {
+    text-align: center;
+    color: #333; /* Dark text color for visibility */
+}
+
+.courses-title {
+    text-align: center;
+    color: #ffffff; /* Slightly lighter than the main title */
+    margin-bottom: 20px;
+}
+
+.courses-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to wrap onto the next line */
+    justify-content: center; /* Center the cards */
+    gap: 20px; /* Space between the cards */
+}
+
+.course-card {
+    background-color: rgb(0, 0, 0); /* White background for cards */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    padding: 20px;
+    width: 300px; /* Fixed width for uniformity */
+    transition: transform 0.2s; /* Smooth scaling on hover */
+}
+
+.course-card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.course-title {
+    font-size: 1.5em; /* Larger font for course titles */
+    color: #007bff; /* Blue color for course titles */
+}
+
+.course-description {
+    margin: 10px 0;
+    color: #666; /* Darker color for description */
+}
+
+.enroll-button {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px; /* Padding for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth color transition */
+}
+
+.enroll-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
